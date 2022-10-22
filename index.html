@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Kipeno Lemayian - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a4c43f1740.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
 <div id="header">
     <div class="container">
          <nav>            
-            <h1 class = "logo">Lema's portfolio</h1>          
+            <h1 class="logoname">Lema's portfolio</h1>          
             <ul id="sidemenu">
                 <li><a href = "#header" >Home </a></li>
                 <li><a href = "#about" >About </a></li>
+                <li><a href = "#techstack" > Techstack </a></li>
+                <li><a href = "#certifications" >Certifications </a></li>
+                <li><a href = "#portfolio" >Projects </a></li>
                 <li><a href = "#services" >Services </a></li>
-                <li><a href = "#portfolio" >Portfolio </a></li>
-                <li><a href = "contact" >Contact </a></li>
+                
+                
                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
              </nav>
             <div class="header-text">
-                <p> Software Development Engineer</p>
-                <h1> Hi, I'm <span> Kipeno Lemayian</span> <br> an alx-africa software engineer</h1>
+                <h1 class="logoname"> Software Development Engineer </h1>
+                <p> ALX SE Program Fellow | BackEnd Engineer | Web Developer </p>
+ 
+ 
             </div>
     </div>
 </div>
@@ -37,33 +43,16 @@
                 <img src="./user.png">
                 </div>
                     <div class="about-col-2">
-                              <h1 class="sub-title">About Me</h1>
+                              <h1 class="sub-div">About Me</h1>
                                <p> I'm a software developer with 2+ years of experience in creating
                                 interactive webpages. I'm experienced in programing languages such as 
-                                Python, C++, C#, HTML, JavaScript, Java. I'm currently under ALX SE programming with keen specialization on back end software development.</p>  
-
-                                <div class="tab-titles">
-                                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                                </div>
-                                   <div class="tab-contents active-tab" id="skills">
-                                    <ul>
-                                      <li><span> Front-end Development</span><br> Front-end web design</li>
-                                      <li><span> Back-end Development</span><br> Back-end web design</li>
-                                      <li><span>Cloud Engineer </span><br> Cloud based architecture and DevOps</li>
-                                    </ul>
-                                 </div>   
-                                <div class="tab-contents" id="experience">
-                                    <ul>
-                                   <li><span> June 2022- Current</span><br> Software engineering apprentice</li>
-                                   <li><span> 2021</span><br> Chat User interface</li>
-                                   <li><span>2022- 2023 </span><br> AWS, GCP, Azure Certification</li>
-                                    </ul>
-                                </div>           
-                                <div class="tab-contents" id="education">                                
-                                  <li><span> June 2022- June 2023</span><br> ALX Software engineering school</li>
-                                 
+                                Python, C++, C#, HTML, JavaScript, Java. I'm currently under ALX SE 
+                                programming with keen specialization on back end software development.
+                                I'm Interested in Software Development, Cloud Computing, Programming automation,
+                                Web Development and Software robotics.
+                                </p>                               
+                                
+                                                                 
                      </div> 
                  </div>  
              </div>
@@ -71,7 +60,46 @@
     </div>
 </div>
 
-<!----------------services-->>
+<!------------Techstack------------->
+<h1 class="techstack">Techstack</h1>
+<div id = "techstack">
+<p align="center">
+    <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="90" height="90" alt="Python" /></a>
+    <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="90" height="90" alt="Django" /></a>
+    <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="90" height="90" alt="MongoDB" /></a>
+    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="90" height="90" alt="MySQL" /></a>   
+    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="90" height="90" alt="HTML5" /></a>
+    <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="90" height="90" alt="C" /></a>
+    <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="90" height="90" alt="C++" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="90" height="90" alt="JavaScript" /></a>
+    <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="90" height="90" alt="React" /></a>
+    <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="90" height="90" alt="NodeJS" /></a>
+    <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg" width="90" height="90" alt="C#" /></a>
+    <a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="90" height="90" alt="Java" /></a>    
+    <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/ruby-colored.svg" width="90" height="90" alt="Ruby" /></a>
+   
+    
+    </p>
+</div>
+<!------Certifications-------->
+<div id = "certifications">
+    <div class="container" padding="10px 20px 30px 40px">
+        <h1 class="sub-title">CSP Certifications</h1>
+        <div class="certification-list">
+            <div class="about-col-2">
+            <ul>
+                <li style="list-style:circle;">AWS Certified Cloud Practictioner (In Progress)</li>
+                <li style="list-style:circle;">AWS Certified Solutions Architect (In Progress)</li>
+                <li style="list-style:circle;">Google Cloud Certified Associate Cloud Engineer (In progress)</li>
+                <li style="list-style:circle;">Microsoft Certified: Azure Data Fundamentals Certification (In progress)</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+                
+                   
+<!-----------services--------->
 
 <div id = 'services'>
     <div class ="container">
@@ -79,21 +107,21 @@
         <div class="services-list">
             <div>
                 <i class="fa-solid fa-code"></i>
-                <h2> Web Design</h2>
-                <p> I create interactive web pages for my clients. </p>
-                <a href="#">Learn  more</a>
+                <h2>Backend Design & Development</h2>
+                <p> I create maintainable,highly scalable and interactive backend webpages. </p>
+                
             </div>
             <div>
                 <i class="fa-sharp fa-solid fa-crop"></i>
-                <h2>Front-end web Design</h2>
-                <p> I create interactive front-end UI interfaces for my clients. </p>
-                <a href="#">Learn  more</a>
+                <h2>Software Automation</h2>
+                <p> I create automated software solutions using Python language for my clients. </p>
+            
             </div>
             <div>                
                     <i class="fa-brands fa-app-store-ios"></i>
-                    <h2>Cloud Dev0ps engineer</h2>
-                    <p> I'm a cloud architect and DevOps engineer versed with AWS. </p>
-                    <a href="#">Learn  more</a>
+                    <h2>Cloud Engineer</h2>
+                    <p> I build, deploy and maintain softwares and apps in the cloud e.g AWS, Google Cloud </p>
+                    
             </div>
         </div>
     </div>
@@ -106,29 +134,28 @@
             <div class="work">
                 <img src="./work-1.png">
                 <div class="layer">
-                    <h3> Social Media App</h3>
-                    <p>The app connects you with talented people around the world. Download ot from the play store!</p>
+                    <h3> Social Me</h3>
+                    <p>This is an app that allow users to connect with others in real time.</p>
                     <a href="#"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src="./work-2.png">
                 <div class="layer">
-                    <h3> Music App</h3>
-                    <p>The app connects you with talented people around the world. Download ot from the play store!</p>
+                    <h3> Face-Recognition and Attendance Smart System</h3>
+                    <li>a face recognition system that syncs with attendance to determine the number of people entering a given place.</li>
                     <a href="#"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src="./work-3.png">
                 <div class="layer">
-                    <h3>Online shopping App</h3>
-                    <p>The app connects you with talented people around the world. Download ot from the play store!</p>
-                    <a href="#"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></i></a>
+                    <h3>Portfolio Site</h3>
+                    <p> Designed and implemented a responsive personal portfolio site to showcase my education, experience and projects</p>
+                    <a href="lemashon.netlify.app"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
             </div>
-        </div>
-     <a href="#" class="btn">See more</a>
+        </div>     
     </div>
 </div>
 
@@ -137,9 +164,9 @@
     <div class="container">
         <div class="row">
             <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
+                <h1 class="sub-title">Contacts</h1>
                 <p><i class="fa-sharp fa-solid fa-paper-plane"></i>lemakipeno@gmail.com</p>
-                <p><i class="fa-brands fa-whatsapp"></i>+254706104427</p>
+                <p><i class="fa-brands fa-whatsapp"></i>+254 706 104 427</p>
                 <div class="social-icons">
                     <a href="https://twitter.com/kipenolema05"><i class="fa-brands fa-twitter"></i></a>
                     <a href="https://www.linkedin.com/in/kipeno-lemayian-9219a5161/"><i class="fa-brands fa-linkedin"></i></a>
@@ -147,15 +174,8 @@
                  </div>
                   <a href="./my-cv.pdf" download class="btn btn2">Download CV</a>
             </div>
-            <div class="contact-right"></div>
-                <form class="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required> 
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="Message"  rows="6" placeholder=" Your Message"></textarea> 
-                    <button type="submit" class="btn btn2">submit</button>
-
-                </form>
-                <span id="msg">hello</span>
+            <div class="contact-right"></div>               
+                <span id="msg"></span>
             </div>
         </div>
     </div>
