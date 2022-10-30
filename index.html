@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kipeno Lemayian - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="./amazon-ember-cdnfonts/" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
-    <style>
-        @import url('http://fonts.cdnfonts.com/css/amazon-ember');
-    </style>
-    <!--<script src="https://kit.fontawesome.com/a4c43f1740.js" crossorigin="anonymous"></script> -->
+    <link href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/a4c43f1740.js" crossorigin="anonymous"></script> 
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
@@ -31,7 +30,7 @@
         </nav>
                 <div class="header-text">
                 <h1 class="logoname"> Software Engineer  </h1>
-                <p> ALX SE Program Fellow | BackEnd Engineer | Web Developer </p>
+                <p> ALX SE Program Fellow | Backend Engineer | Web Developer </p>
                 </div>
     </div>
 </div>
@@ -153,6 +152,42 @@
     </div>
 </div>
 
+
+<!-----------------Personal Accomplishments------>
+<div id = ''></div>
+<div class ="container">
+    <h1 class="sub-title"> Personal Accomplishments</h1>
+        <div class="accomplishments-list">
+            <div>
+                <h1>5+</h1>
+                <h2>Open Source projects </h2>                
+            </div>
+            <div>
+                <h1>4+</h1>
+                <h2> Years of Coding Experience </h2>
+            
+            </div>
+            <div>                
+                    <h1>1+</h1>
+                    <h2>Years of Software Engineering Apprentice</h2>                    
+            </div>
+        </div>
+    </div>
+
+<!-----------------My Education------>
+<div class = "container">
+    <h1 class="sub-title">My Education</h1>
+    <nav>
+    <ul class="logoname">
+    <li> <h1>ALX-Holberton SE Program </h1></li>    
+    <li><h1>FreeCode Camp </h1></li>
+    <li><h1>University of Nairobi </h1></li>
+    </ul>
+    </nav>
+</div>
+
+
+
 <!-----------------contact------------>
 <div id="contact">
     <div class="container">
@@ -198,27 +233,9 @@
         document.getElementById("sidemenu").style.right="0";
     }
     //var sidemenu = document.getElementById("sidemenu");
-    function openmenu(){
-        document.sidemenu.style.right="-200px";
+    function closemenu(){
+        document.getElementById("sidemenu").style.right="-200px";
     }
 </script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzs11zKtv7e_Oyj-adLLkf17jdqd6GBt2fFVeOhwHaUHFHRglHHdAPtUZvNG6uyJOKN/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML="Message sent sucessfully";
-            setTimeout(function(){
-                  msg.innerHTML = ""  
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
 </body>
 </html>
