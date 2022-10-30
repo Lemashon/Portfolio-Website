@@ -1,7 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Amazon Ember', sans-serif;
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember Duospace', sans-serif;
+    font-family: 'Amazon Ember Mono', sans-serif;
+    font-family: 'Amazon Ember V2', sans-serif;
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
@@ -391,10 +397,17 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width: 600px){
-    #header{
-        background-image: url(./phone-background.png);
+@media only screen and (max-width: 480px){
+    .header{
+        overflow: hidden;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+       /* background-image: url(./user.png);*/
     }
+    .about .img {
+        max-width: 100%;
+        height: auto;
+      }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
@@ -426,6 +439,9 @@ nav .fa-solid{
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+    .about{
+     background-image: url("./user.png")
     }
 
     .sub-title{

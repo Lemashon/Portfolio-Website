@@ -6,33 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kipeno Lemayian - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a4c43f1740.js" crossorigin="anonymous"></script>
+    <link href="http://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/amazon-ember');
+    </style>
+    <!--<script src="https://kit.fontawesome.com/a4c43f1740.js" crossorigin="anonymous"></script> -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
 <div id="header">
     <div class="container">
-         <nav>            
+        <nav>            
             <h1 class="logoname">Lema's portfolio</h1>          
-            <ul id="sidemenu">
+            <ul id="sidemenu" class="sidemenu">
                 <li><a href = "#header" >Home </a></li>
                 <li><a href = "#about" >About </a></li>
                 <li><a href = "#techstack" > Techstack </a></li>
                 <li><a href = "#certifications" >Certifications </a></li>
                 <li><a href = "#portfolio" >Projects </a></li>
-                <li><a href = "#services" >Services </a></li>
-                
-                
+                <li><a href = "#services" >Services </a></li>              
                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-             </nav>
-            <div class="header-text">
-                <h1 class="logoname"> Software Development Engineer </h1>
-                <p> ALX SE Program Fellow | BackEnd Engineer | Web Developer </p>
- 
- 
-            </div>
+        </nav>
+                <div class="header-text">
+                <h1 class="logoname"> Software Engineer  </h1>
+                <h2> ALX SE Program Fellow | BackEnd Engineer | Web Developer </h2>
+                </div>
     </div>
 </div>
 <!------------about------------->
@@ -40,9 +40,10 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="./user.png">
-                </div>
-                    <div class="about-col-2">
+                <div class="clearfix">
+                    <img src="./user.png">
+                        </div>
+                          <div class="about-col-2">
                               <h1 class="sub-div">About Me</h1>
                                <p> I'm a software developer with 2+ years of experience in creating
                                 interactive webpages. I'm experienced in programing languages such as 
@@ -51,11 +52,10 @@
                                 I'm Interested in Software Development, Cloud Computing, Programming automation,
                                 Web Development and Software robotics.
                                 </p>                               
-                                
-                                                                 
-                     </div> 
-                 </div>  
-             </div>
+                            </div>
+                        </div> 
+                </div>  
+            </div>
         </div>
     </div>
 </div>
@@ -90,8 +90,6 @@
             <ul>
                 <li style="list-style:circle;">AWS Certified Cloud Practictioner (In Progress)</li>
                 <li style="list-style:circle;">AWS Certified Solutions Architect (In Progress)</li>
-                <li style="list-style:circle;">Google Cloud Certified Associate Cloud Engineer (In progress)</li>
-                <li style="list-style:circle;">Microsoft Certified: Azure Data Fundamentals Certification (In progress)</li>
             </ul>
             </div>
         </div>
@@ -199,16 +197,14 @@
     }
 </script>
 <script>
-    var sidemenu = document.getElementById("sidemenu");
+    //var sidemenu = document.getElementById("sidemenu");
     function openmenu(){
-        sidemenu.style.right="0";
+        document.getElementById("sidemenu").style.right="0";
     }
-    var sidemenu = document.getElementById("sidemenu");
+    //var sidemenu = document.getElementById("sidemenu");
     function openmenu(){
-        sidemenu.style.right="-200px";
+        document.sidemenu.style.right="-200px";
     }
-
-
 </script>
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbzs11zKtv7e_Oyj-adLLkf17jdqd6GBt2fFVeOhwHaUHFHRglHHdAPtUZvNG6uyJOKN/exec'
