@@ -353,6 +353,10 @@ nav ul li a:hover::after{
     margin-top: 20px;
     display: inline-block;
 }
+/*---------Education----------*/
+.educationlist{
+    color: #ff004f;
+}
 /*---------Contact----------*/
 
 .contact-left{
@@ -429,7 +433,7 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
     .header{
         overflow: hidden;
         padding: 20px 10px;
